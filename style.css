@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+:root {
+    --purple: #701e7d;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: RGB(230, 230, 230);
+    --yellow: #ffd400;
+    --grey1: RGB(93, 93, 93);
+}
+.bg-purple {
+    background-color: var(--purple);
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-grey {
+    background-color: var(--grey);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.bg-white {
+    background-color: var(--white);
+
+}
+.bg-black {
+    background-color: var(--black);
+}
+.text-purple {
+    color: var(--purple);
+}
+.text-white {
+    color: var(--white);
+}
+.text-grey {
+    color: var(--grey1);
+}
+.text-black {
+    color: var(--black);
+}
+.text-yellow {
+    color: var(--yellow);
+}
+
+.Internet{
+    font-weight: bold;
+}
