@@ -67,8 +67,23 @@ html {
 .Internet:hover {
     background-color: var(--yellow);
     color: var(--purple);
+    border: 1px solid var(--yellow);
+}
+.nav-pic{
+    padding-right: 30px;
+}
+.nav-item {
+    padding-left:  20px;
+    padding-right: 20px;
+}
+.nav-item:hover {
+    background-color: var(--yellow);
+    color: var(--purple);
 }
 #fa-magnifying-glass {
+    display: none;
+}
+#fa-magnifying-glass1 {
     display: none;
 }
 .logo {
@@ -79,19 +94,75 @@ html {
     position: relative;
     top: 0;
 }
+#menu {
+    display: none;
+}
 /* .fa-lock {
     position: relative;
 } */
 
+
+
+
+
+
+
+@media(max-width:1200px){
+
+    .open-pic {
+        width: 330px;
+        height: 250px;
+
+    }
+}
+@media(max-width:768px){
+    .nav-item {
+        display: none;
+    }
+    #fa-magnifying-glass {
+        border: none !important;
+        padding: 0px !important;
+        display: none !important;
+    }
+    #fa-magnifying-glass1 {
+        display: block;
+        border: none !important;
+        padding: 0px !important;
+    }
+
+    #menu {
+        display: flex;
+        
+    }
+    #head2 {
+        align-items: start !important;
+        justify-content: space-between !important;
+    }
+    
+    #logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center !important;
+        padding: 20px;
+    }
+}
+@media (max-width:350px){
+    #logo {
+        padding: 10px !important;
+    }
+}
+
+@media (max-width: 1024px){
+    .head {
+        display: none;
+}}
 @media (max-width:1150px){
     .Internet, #form-control, #form-control1{
        display: none;
     }
     #fa-magnifying-glass {
         display: flex;
-        align-items: end;
-        justify-content: start;
-        
+        padding-left: 30px;
 
     }
 
