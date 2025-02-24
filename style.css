@@ -111,6 +111,30 @@ html {
     padding: 30px 200px;
 }
 
+.main-last {
+    margin-bottom: 30px;
+}
+
+@media(max-width:425px){
+    #locate {
+        padding: 15px !important;
+
+}
+    #secp {
+        width: 150px;
+    }
+}
+
+
+@media(max-width:400px)
+{
+    .open-pic {
+
+        width: 150px !important;
+        height: 100px !important;
+    }
+}
+
 @media(max-width: 654px){
 .asia {
     padding: 0 !important;
