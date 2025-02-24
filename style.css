@@ -107,8 +107,16 @@ html {
 }
 
 
+.asia {
+    padding: 30px 200px;
+}
 
+@media(max-width: 654px){
+.asia {
+    padding: 0 !important;
+}
 
+}
 @media(max-width:1200px){
 
     .open-pic {
